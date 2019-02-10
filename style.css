@@ -1,0 +1,43 @@
+#ship-select {
+  border: 2px solid gold;
+  height: 150px;
+  margin: auto;
+}
+#win-lose {
+  border: 2px solid gold;
+  height: 150px;
+  margin: auto;
+}
+button {
+  height: 100%;
+}
+#enemies {
+  width: 80%;
+  border: 2px solid gold;
+  height: 150px;
+  margin: auto;
+}
+
+#battle {
+  width: 80%;
+  border: 2px solid gold;
+  height: 500px;
+  margin: auto;
+  position: relative;
+}
+#defender {
+  float: right;
+  width: 20%;
+  border: 2px solid gold;
+  height: 250px;
+  margin: auto;
+}
+#attacker {
+  float: left;
+  position: absolute;
+  bottom: 0px;
+  width: 20%;
+  border: 2px solid gold;
+  height: 250px;
+  margin: auto;
+}
