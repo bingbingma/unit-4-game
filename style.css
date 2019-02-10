@@ -1,43 +1,74 @@
+body {
+  background-image: url("assets/background.jpg");
+  background-repeat: stretch;
+}
+.header {
+  color: white;
+  text-emphasis: strong;
+}
 #ship-select {
   border: 2px solid gold;
   height: 150px;
   margin: auto;
+  color: white;
+  text-emphasis: strong;
 }
 #win-lose {
   border: 2px solid gold;
   height: 150px;
   margin: auto;
+  color: white;
+  text-emphasis: strong;
 }
 button {
   height: 100%;
+  background-color: darkslateblue;
+  color: silver;
 }
 #enemies {
   width: 80%;
   border: 2px solid gold;
   height: 150px;
   margin: auto;
+  color: white;
+  text-emphasis: strong;
 }
 
-#battle {
+#battlezone {
   width: 80%;
   border: 2px solid gold;
-  height: 500px;
+  height: 400px;
   margin: auto;
   position: relative;
+  color: white;
+  text-emphasis: strong;
 }
 #defender {
   float: right;
-  width: 20%;
+  width: 250px;
   border: 2px solid gold;
-  height: 250px;
+  height: 200px;
   margin: auto;
+  color: white;
+  text-emphasis: strong;
 }
-#attacker {
+#player {
   float: left;
   position: absolute;
   bottom: 0px;
-  width: 20%;
+  width: 250px;
   border: 2px solid gold;
-  height: 250px;
+  height: 200px;
   margin: auto;
+  color: white;
+  text-emphasis: strong;
+}
+
+.attackbutton {
+  position: absolute;
+  bottom: 0px;
+  margin: 10px 50% 10px 40%;
+  height: 10%;
+  width: 20%;
+  align-content: center;
 }
