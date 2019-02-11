@@ -57,7 +57,7 @@ $(document).ready(function() {
       $(".enterpriseShip").appendTo("#enemies");
       $(".romulanShip").appendTo("#enemies");
       $(".borgShip").appendTo("#enemies");
-      //appends enterprise  to the your ship section
+      //appends klingon to the your ship section
       $(".klingonShip")
         .appendTo("#player")
         .css({ height: "150px", width: "175px" });
